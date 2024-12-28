@@ -1,7 +1,19 @@
-import * as THREE from 'three';
+/*import * as THREE from 'three';
 import { GLTFLoader } from './node_modules/three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
 import { RGBELoader } from './node_modules/three/examples/jsm/loaders/RGBELoader.js';
+*/
+// Import Three.js core library
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.module.js';
+
+// Import GLTFLoader
+import { GLTFLoader } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/examples/jsm/loaders/GLTFLoader.js';
+
+// Import OrbitControls
+import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/examples/jsm/controls/OrbitControls.js';
+
+// Import RGBELoader
+import { RGBELoader } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/examples/jsm/loaders/RGBELoader.js';
 
 // Set up the scene, camera, and renderer
 const scene = new THREE.Scene();
